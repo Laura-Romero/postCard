@@ -1,0 +1,55 @@
+.spacePostcard{
+    width: 37rem;
+    height: 23rem; 
+    background: white;
+    margin: auto;
+    margin-top: 150px;
+
+}
+body{
+    background: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.imagen1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.myImage{
+    width: 5rem;
+    height: 5rem;
+    padding-top: 14px;
+    padding-right: 14px;
+}
+.myPostcard{
+    padding-left: 14px;
+    padding-top: 16px;
+    font-size: 38px;
+    
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+button{
+    height: 2rem;
+    width: 9rem;
+    background-color:   darkgray;
+    border: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.form-postcard{
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    width: 225px;
+    margin-left: 1rem;
+}
+.bordes{
+    border-bottom: groove;
+    color: gray;
+    margin-right: 1rem;
+}
