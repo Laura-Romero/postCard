@@ -39,6 +39,7 @@ button{
     background-color:   darkgray;
     border: none;
     font-family: 'Montserrat Alternates', sans-serif;
+    outline: none;
 }
 .form-postcard{
     display: flex;
@@ -52,4 +53,16 @@ button{
     border-bottom: groove;
     color: gray;
     margin-right: 1rem;
+}
+input{
+    border: none;
+    border-bottom:1px solid gray;
+    outline: none;
+    padding-right: 78px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    padding-right: 14px;
 }
